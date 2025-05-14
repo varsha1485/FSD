@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Feedback Page</title>
+  <link rel="stylesheet" href="a5.css">
+</head>
+<body>
+
+  <header>
+    <h1>User Feedback</h1>
+  </header>
+
+  <main>
+    <article>
+      <h2>Leave Your Feedback</h2>
+      <form id="feedbackForm">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="feedback">Your Feedback:</label>
+        <textarea id="feedback" name="feedback" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </article>
+
+    <aside>
+      <h2>What is Web Storage?</h2>
+      <p>
+        <strong>localStorage</strong> is a way to store data in the web browser with no expiration time.
+        It remains available even after the browser is closed and reopened.
+      </p>
+      <p>
+        <strong>sessionStorage</strong> stores data for the duration of the page session.
+        It is cleared when the browser tab is closed.
+      </p>
+      <p>
+        These features are used to remember user preferences, save form data temporarily,
+        and avoid unnecessary server requests.
+      </p>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Feedback Inc.</p>
+  </footer>
+
+  <script src="AQ5.js"></script>
+</body>
+</html>
+
