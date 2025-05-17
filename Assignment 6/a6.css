@@ -1,0 +1,39 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 1rem;
+}
+header, footer {
+  background: #f0f0f0;
+  padding: 1rem;
+}
+header h1, footer p {
+  margin: 0;
+}
+nav a {
+  text-decoration: none;
+  margin: 0 0.5rem;
+}
+aside {
+  background: #f9f9f9;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+figure img {
+  width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+section {
+  margin: 1rem 0;
+}
+article {
+  border-bottom: 1px solid #ddd;
+  padding: 1rem 0;
+}
+button {
+  margin-top: 0.5rem;
+}
+details {
+  margin-top: 0.5rem;
+}

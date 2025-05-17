@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Dashboard</title>
+  <link rel="stylesheet" href="a6.css" />
+</head>
+<body>
+  <header>
+    <h1>Student Dashboard</h1>
+    <nav>
+      <a href="#">Home</a> |
+      <a href="#subjects">Subjects</a> |
+      <a href="#attendance">Attendance</a> |
+      <a href="#feedback">Feedback</a>
+    </nav>
+  </header>
+
+  <aside>
+    <h2>Student Information</h2>
+    <p><strong>Name:</strong>VARSHA S</p>
+    <p><strong>Reg. No:</strong> 1MS24SCS30</p>
+    <p><strong>Semester:</strong> 2</p>
+    <figure>
+      <img src="https://img.freepik.com/premium-vector/portrait-beautiful-woman-with-curly-hair-illustration_619097-254.jpg" alt="Student Photo" />
+      <figcaption>VARSHA S</figcaption>
+    </figure>
+  </aside>
+
+  <section id="subjects">
+    <h2>Academic Performance</h2>
+
+    <article>
+      <h3>Mathematics</h3>
+      <p>Test Date: <time datetime="2025-05-10">May 10, 2025</time></p>
+      <p>Assignment: <progress value="4" max="5">4/5</progress></p>
+      <p>Score: <meter value="82" min="0" max="100" low="40" high="90" optimum="95">82%</meter></p>
+      <button onclick="toggleFeedback('math')">Show Comments</button>
+      <details id="math">
+        <summary>Teacher Feedback</summary>
+        <p>Good grasp of concepts—practice speed.</p>
+      </details>
+    </article>
+
+    <article>
+      <h3>Science</h3>
+      <p>Test Date: <time datetime="2025-05-12">May 12, 2025</time></p>
+      <p>Assignment: <progress value="5" max="5">5/5</progress></p>
+      <p>Score: <meter value="90" min="0" max="100" low="40" high="90" optimum="95">90%</meter></p>
+      <button onclick="toggleFeedback('science')">Show Comments</button>
+      <details id="science">
+        <summary>Teacher Feedback</summary>
+        <p>Excellent performance—keep it up!</p>
+      </details>
+    </article>
+  </section>
+
+  <section id="overall">
+    <h2>Overall Performance</h2>
+    <p>Average Score: <meter value="86" min="0" max="100" low="40" high="90" optimum="95">86%</meter></p>
+    <p>Assignments Done: <progress value="9" max="10">9/10</progress></p>
+  </section>
+
+  <footer>
+    <p>Contact: <a href="mailto:info@college.edu">MSRIT@college.edu</a></p>
+    <p>&copy; <time datetime="2025">2025</time> MSRIT.</p>
+  </footer>
+
+  <script src="Aa6.js"></script>
+</body>
+</html>
