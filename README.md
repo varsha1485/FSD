@@ -22,6 +22,7 @@ This repository contains all my Full Stack Development 💌 assignments for the 
 | 😉 Assignment 6 | Forms & Validation |
 | 💫 Assignment 7 | DOM Manipulation |
 | 🥹 html | Misc. HTML Files |
+| ⭐ CRUD | crud demo |
 
 ---
 
