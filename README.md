@@ -7,7 +7,6 @@ This repository contains all my Full Stack Development 💌 assignments for the 
 
 ## 📁 Folder Structure
 
-FSD/
 🌞Assignment 1 , ☁️Assignment 2 , ⛅Assignment 3 , 🌦️Assignment 4 , 🌧️Assignment 5 , ⛈️Assignment 6 , 🌜Assignment 7, 🌨️html , ❄️README.md , ☃️REPL ASSIGNMENT_1MS24SCS30.pdf
 ---
 
